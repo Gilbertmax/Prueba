@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{87BA26D4-8FF9-4043-9F43-F93D1795FB43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bussiness", "Bussiness\Bussiness.csproj", "{FD3BF516-6585-4122-A8F2-9ED2125992A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entitys\Entities.csproj", "{883DB308-F6B3-4AF5-A875-9D5B46A6D486}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FrondEnd", "FrondEnd\FrondEnd.esproj", "{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YourSolution", "YourSolution", "{572F79C8-6E9A-4453-91C9-9E027B2E8062}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{BAF20636-D12C-4A5E-9EEB-BE9EEC36B015}"
+	ProjectSection(SolutionItems) = preProject
+		Data\AuthController.cs = Data\AuthController.cs
+		CartController.cs = CartController.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87BA26D4-8FF9-4043-9F43-F93D1795FB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BA26D4-8FF9-4043-9F43-F93D1795FB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BA26D4-8FF9-4043-9F43-F93D1795FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BA26D4-8FF9-4043-9F43-F93D1795FB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3BF516-6585-4122-A8F2-9ED2125992A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3BF516-6585-4122-A8F2-9ED2125992A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3BF516-6585-4122-A8F2-9ED2125992A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3BF516-6585-4122-A8F2-9ED2125992A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883DB308-F6B3-4AF5-A875-9D5B46A6D486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883DB308-F6B3-4AF5-A875-9D5B46A6D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883DB308-F6B3-4AF5-A875-9D5B46A6D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883DB308-F6B3-4AF5-A875-9D5B46A6D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87BA26D4-8FF9-4043-9F43-F93D1795FB43} = {572F79C8-6E9A-4453-91C9-9E027B2E8062}
+		{FD3BF516-6585-4122-A8F2-9ED2125992A4} = {572F79C8-6E9A-4453-91C9-9E027B2E8062}
+		{883DB308-F6B3-4AF5-A875-9D5B46A6D486} = {572F79C8-6E9A-4453-91C9-9E027B2E8062}
+		{86D28E13-13B0-4B6D-9B2B-5AB2B2A82BB4} = {572F79C8-6E9A-4453-91C9-9E027B2E8062}
+		{BAF20636-D12C-4A5E-9EEB-BE9EEC36B015} = {572F79C8-6E9A-4453-91C9-9E027B2E8062}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CD21BF7-DCAC-41DC-971A-1FD410C809E3}
+	EndGlobalSection
+EndGlobal
